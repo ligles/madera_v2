@@ -4,12 +4,18 @@
 var app = require('express')();
 
 // premiere route
-app.get('/',function(req, res){
+app.get('/api',function(req, res){
     res.send('Hello le monde');
 });
 
-//construction du server
 
+
+
+
+
+
+
+//construction du server
 var server = app.listen(3000, function () {
     var host = server.address().adress;
     host = (host === '::' ? 'localhost' : host);
