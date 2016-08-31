@@ -1,0 +1,31 @@
+{
+  "name": "madera_v2",
+  "version": "1.0.0",
+  "description": "Api de l'application Madera, une application de conception et de gestion de devis pour des maisons en bois modulaire. Projet Fil rouge des RIL14 au Cesi Mont Saint Aignan",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ligles/madera_v2.git"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "API"
+  ],
+  "author": "ligles",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ligles/madera_v2/issues"
+  },
+  "homepage": "https://github.com/ligles/madera_v2#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.14.3",
+    "gulp": "^3.9.1"
+  }
+}
