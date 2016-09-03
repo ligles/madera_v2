@@ -22,8 +22,10 @@
   },
   "homepage": "https://github.com/ligles/madera_v2#readme",
   "dependencies": {
+    "async": "^2.0.1",
     "body-parser": "^1.15.2",
     "express": "^4.14.0",
+    "jsonwebtoken": "^7.1.9",
     "mysql": "^2.11.1"
   },
   "devDependencies": {

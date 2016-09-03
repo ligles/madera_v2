@@ -4,18 +4,13 @@
 var express = require('express');
 var router = express.Router();
 var userService = require('../Services/userService');
+/*
+router.get('/', function (req, res){
+    res.send('je cherche un user id = ' + req.params.id);
+});
+*/
+router.post('/',userService.login)
 
-
-
-router.use(userService.VerifyToken);
-
-
-router.get('/:id',userService.getById);
-
-
-//router.post('/',userService.hello);
-router.post('/',userService.save);
-router.put('/',userService.put);
 
 
 

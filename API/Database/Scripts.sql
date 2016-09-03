@@ -14,3 +14,6 @@ CREATE TABLE IF NOT EXISTS `APIMadera`.`user` (
   PRIMARY KEY (`user_id`),
   UNIQUE INDEX `user_email_UNIQUE` (`user_email` ASC))
 ENGINE = InnoDB;
+
+
+

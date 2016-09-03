@@ -4,18 +4,16 @@
 var express = require('express');
 var router = express.Router();
 var userService = require('../Services/userService');
-
+var clientService = require('../Services/clientService')
 
 
 router.use(userService.VerifyToken);
 
 
-router.get('/:id',userService.getById);
+router.get('/:id',clientService.getById);
 
-
-//router.post('/',userService.hello);
-router.post('/',userService.save);
-router.put('/',userService.put);
+router.post('/',clientService.save);
+router.put('/',clientService.put);
 
 
 
